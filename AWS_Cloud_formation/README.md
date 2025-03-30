@@ -40,19 +40,23 @@ Resources:
 1) Go to AWS Console -> CloudFormation
 2) Click Create stack -> With new resorces.
 
-![alt text](image.png)
+![Screenshot 2025-03-30 125646](https://github.com/user-attachments/assets/2b696b9d-794a-4e8d-a95e-4cf8957b9fe5)
+
 
 3) Upload the ec2-instance.yaml template.
 
-![alt text](image-1.png)
+![Screenshot 2025-03-30 125741](https://github.com/user-attachments/assets/3c999216-0776-440b-a30c-e7ad5a5a6d4e)
+
 
 You can View your Infra just click on View Infrastructure Composer.
 
-![alt text](<Screenshot 2025-03-30 124623.png>)
+![Screenshot 2025-03-30 124623](https://github.com/user-attachments/assets/80cab84a-028a-4beb-babe-05626d596b31)
+
 
 4) Provide a stack name (eg, MyEC2Stack).
 
-![alt text](image-2.png)
+![Screenshot 2025-03-30 130054](https://github.com/user-attachments/assets/bc44f8f8-9817-4be9-b64e-e63c44171d5a)
+
 
 5) Click Next and review the settings.
 6) Click Create Stack.
@@ -62,12 +66,12 @@ You can View your Infra just click on View Infrastructure Composer.
 - Go to the EC2 Dashboard in AWS.
 - Check if an instance with the tag MyFirstEC2 is running.
 
-
-![alt text](<Screenshot 2025-03-30 124908.png>)
+![Screenshot 2025-03-30 124728](https://github.com/user-attachments/assets/a14d3a7b-7202-4daf-b873-344e0fc23e41)
 
 ## You can update your Stack 
 
-![alt text](<Screenshot 2025-03-30 124846.png>)
+![Screenshot 2025-03-30 124846](https://github.com/user-attachments/assets/4d3543ac-eaf1-4357-841f-d697420da4bf)
+
 
 ## Deleting an AWS CloudFormation Stack
 
@@ -82,7 +86,7 @@ You can View your Infra just click on View Infrastructure Composer.
 - CloudFormation will **automatically** delete all resources it created, including the EC2 instance.
 - If you created any resources manually (outside of CloudFormation), they **will not** be deleted.
 
-![alt text](<Screenshot 2025-03-30 124908-1.png>)
+![Screenshot 2025-03-30 124908](https://github.com/user-attachments/assets/d36d555b-36e7-4f9c-af50-7c0d48e66b19)
 
 ## Troubleshooting
 

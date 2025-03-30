@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation Template to launch an EC2 instance'
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-084568db4383264d4  # Replace with your region-specific AMI ID
+      KeyName: sanataak  # Replace with your key pair name
+      SecurityGroups:
+        - default
+      Tags:
+        - Key: Name
+          Value: MyFirstEC2
